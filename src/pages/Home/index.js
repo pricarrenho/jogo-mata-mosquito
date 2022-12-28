@@ -13,10 +13,10 @@ export const Home = () => {
 
   const handleChange = (event) => {
     setLevel(event.target.value);
+  };
 
-    if (event.target.value === "Normal") {
-      console.log("AQUI");
-    }
+  const handleNavigate = () => {
+    navigate(`/jogo/${level.toLocaleLowerCase().replaceAll(" ", "-")}`);
   };
 
   return (
@@ -45,7 +45,7 @@ export const Home = () => {
         <div className="contentBtn">
           <Button
             disabled={level === "Selecione o nível"}
-            onClick={() => navigate("jogo")}
+            onClick={handleNavigate}
           >
             Iniciar Jogo
           </Button>
