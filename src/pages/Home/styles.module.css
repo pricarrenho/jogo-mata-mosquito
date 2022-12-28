@@ -1,0 +1,15 @@
+.contentChooseLevel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.chooseLevel {
+  font-size: 16px;
+  padding: 4px 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: none;
+  box-shadow: 0 0 12px rgb(155, 147, 147);
+  outline: none;
+}

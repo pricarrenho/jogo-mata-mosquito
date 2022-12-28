@@ -1,0 +1,16 @@
+.btn {
+  font-size: 24px;
+  color: rgb(247, 238, 238);
+  background: rgb(52, 51, 54);
+  padding: 8px 24px;
+  border: none;
+  box-shadow: 0 0 12px rgb(121, 117, 117);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  background: rgb(54, 51, 51, 0.8);
+}
