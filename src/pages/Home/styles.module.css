@@ -7,9 +7,28 @@
 
 .chooseLevel {
   font-size: 16px;
-  padding: 4px 24px;
+  padding: 8px 48px 8px 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
   border: none;
   box-shadow: 0 0 12px rgb(155, 147, 147);
   outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+.teste {
+  position: relative;
+}
+
+.teste::before {
+  content: "";
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 8px solid #333;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
 }

@@ -25,21 +25,23 @@ export const Home = () => {
         <img src={game} alt="Imagem Mata Mosquito" />
 
         <div className={styles.contentChooseLevel}>
-          <select
-            className={styles.chooseLevel}
-            value={level}
-            onChange={handleChange}
-          >
-            {options.map((option) => (
-              <option
-                value={option}
-                key={option}
-                hidden={option === "Selecione o nível"}
-              >
-                {option}
-              </option>
-            ))}
-          </select>
+          <div className={styles.teste}>
+            <select
+              className={styles.chooseLevel}
+              value={level}
+              onChange={handleChange}
+            >
+              {options.map((option) => (
+                <option
+                  value={option}
+                  key={option}
+                  hidden={option === "Selecione o nível"}
+                >
+                  {option}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
 
         <div className="contentBtn">
