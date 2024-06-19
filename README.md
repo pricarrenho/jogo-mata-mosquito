@@ -17,7 +17,7 @@ This project was developed using the following technologies:
 
 ## 🔥 Preview
 
-[![Deploy with Vercel](https://vercel.com/button)](https://www.jogo-mata-mosquito.pricarrenho.com.br)
+[![Deploy with Vercel](https://vercel.com/button)](https://jogo-mata-mosquito.pricarrenho.com.br)
 
 ## 🚀 Getting started
 
@@ -51,7 +51,7 @@ $ yarn start
 
 ## 💻 Project
 
-[Jogo Mata Mosquito](https://www.jogo-mata-mosquito.pricarrenho.com.br) was developed to validate knowledge in React.
+[Jogo Mata Mosquito](https://jogo-mata-mosquito.pricarrenho.com.br) was developed to validate knowledge in React.
 
 <br/>
 
